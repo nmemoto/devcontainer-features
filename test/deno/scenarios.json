@@ -1,0 +1,18 @@
+{
+    "install_deno_1.26.0": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "deno": {
+                "version": "1.26.0"
+            }
+        }
+    },
+    "install_deno_1.25.4": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "deno": {
+                "version": "1.25.4"
+            }
+        }
+    }
+}
