@@ -1,13 +1,13 @@
 
-# Hello, World! (hello)
+# Deno (deno)
 
-A hello world feature
+Installs Deno
 
 ## Example Usage
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/feature-template/hello:1": {
+        "ghcr.io/nmemoto/devcontainer-features/deno:1": {
             "version": "latest"
         }
 }
@@ -17,10 +17,10 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | Select or enter a Deno version to install | string | latest |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-template/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/nmemoto/devcontainer-features/blob/main/src/deno/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
