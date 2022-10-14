@@ -7,9 +7,9 @@ Installs Deno
 
 ```json
 "features": {
-        "ghcr.io/nmemoto/devcontainer-features/deno:1": {
-            "version": "latest"
-        }
+    "ghcr.io/nmemoto/devcontainer-features/deno:1": {
+        "version": "latest"
+    }
 }
 ```
 
